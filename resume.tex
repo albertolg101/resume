@@ -1,0 +1,201 @@
+%-------------------------
+% Resume in Latex
+% Author : Alberto Leyva Guerra
+% Github : guthub.com/albertolg101/resume
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Alberto Leyva Guerra} \\ \vspace{2pt}
+    \small +53 56 983 082 $|$ \href{mailto:albertoleyvaguerra@gmail.com}{\underline{albertoleyvaguerra@gmail.com}} \\ \vspace{2pt}
+    \href{https://www.linkedin.com/in/alberto-leyva-guerra-63797a220}{\underline{linkedin.com/in/alberto-leyva-guerra-63797a220}} $|$
+    \href{https://github.com/albertolg101}{\underline{github.com/albertolg101}}
+\end{center}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Competitive Programmer}{2018 -- Present}
+      {Achievements:}{}
+      \resumeItemListStart
+        \resumeItem{
+          \href{https://stats.ioinformatics.org/people/7077}{\underline{Honourable Mention}} at the International Olympiad in Informatics 
+          (\href{https://ioi2022.id}{\underline{IOI 2022}}).
+        }
+        \resumeItem{
+          Gold, Silver and Bronze medal at the Ibero-American Competition in Informatics(CIIC) 2021, 2022 and 2020 respectively.
+        }
+        \resumeItem{
+          \href{https://codeforces.com/profile/albertolg101}{\underline{Candidate Master}} at codeforces.
+        }
+        \resumeItem{
+          Member of the Cuban Team for the International Olympiad in Informatics in 
+          \href{https://stats.ioinformatics.org/delegations/CUB/2020}{\underline{2020}},
+          \href{https://stats.ioinformatics.org/delegations/CUB/2021}{\underline{2021}} and
+          \href{https://stats.ioinformatics.org/delegations/CUB/2022}{\underline{2022}}
+        }
+      \resumeItemListEnd
+
+  \resumeSubheading
+    {Data Scientist Junior}{Feb. 2023 -- Present}
+    {XETID}{Santa Clara, Cuba}
+    \resumeItemListStart
+      \resumeItem{
+        Member of the Advertisement Recommendation System Team for \href{ticket.xutil.cu}{\underline{Ticket}}.
+      }
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Competitive Programmer Teacher}{Jan. 2023 -- Present}
+    {IPVCE Ernesto Guevara}{Santa Clara, Cuba}
+    \resumeItemListStart
+      \resumeItem{
+        Teaching a competitive programming lesson every week.
+      }
+    \resumeItemListEnd
+  
+  \resumeSubheading
+    {Odoo Developer}{Jul. 2022 -- Dec. 2022}
+    {DClick Soluciones}{Havana, Cuba}
+    \resumeItemListStart
+      \resumeItem{
+        Development of infrastructure control software for companies such as Cuba Hidráulica and DIVEP.
+      }
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+      
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {IPVCE Ernesto Guevara}{Santa Clara, Cuba}
+      {High School Degree}{Sep. 2019 - Jun. 2022}
+  \resumeSubHeadingListEnd
+      
+      
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeItemListStart
+    \resumeItem{\textbf{Recommendation System:} \emph{Advertisement recommender system using collaborative filtering on \href{ticket.xutil.cu}{Ticket's} database.}}
+    \resumeItem{\textbf{Room Automation:} \emph{Software to make intelligent my own room using Arduino.}}
+    \resumeItem{\textbf{Never Stop Proxy:} \emph{Proxy Server using Squid to improve speed and cost of internet connection in Cuba.}}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+      \textbf{Languages}{: C++, Python, SQL, HTML, CSS, JavaScript} \\
+      \textbf{Libraries}{: Numpy, Pandas, Matplotlib, Scikit-Learn} \\
+      \textbf{Frameworks}{: Odoo} \\
+      \textbf{Developer Tools}{: Git, Docker, Gitlab} \\
+      %\textbf{ORMs}{: Eloquent, TypeORM}
+    }}
+ \end{itemize}
+
+
+\end{document}
