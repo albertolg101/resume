@@ -2,7 +2,7 @@
 % Resume in Latex
 % Author : Alberto Leyva Guerra
 % Github : https://github.com/albertolg101/resume
-% Based off of: https://github.com/sb2nov/resume
+% Based on: https://github.com/sb3nov/resume
 % License : MIT
 %------------------------
 
@@ -117,6 +117,55 @@
 %-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
+  
+  %----------- XETID -----------
+    \resumeSubheading
+      {Software Developer and Infrastructure Engineer}{Jan. 2023 -- Feb. 2024}
+      {XETID}{Santa Clara, Cuba}
+      \resumeItemListStart
+        \resumeItem{
+          Back-end developer in Ticket's website
+        }
+        \resumeItem{
+          Built Ticket's Advertisement Recommendation System using SQL and Python
+        }
+        \resumeItem{
+          Migrated website's main logic to Fiber.
+        }
+        \resumeItem{
+          Maintained and optimized Postgres database, adding tables restrictions to ensure database consistency and indexes to reduce responses times
+        }
+        \resumeItem{
+          Built Grafana dashboards and configured an Uptime Kuma server, improving bussiness and services monitoring
+        }
+        \resumeItem{
+          Maintained and optimized NGINX configurations, reducing page loads time by a 260\% 
+        }
+        \resumeItem{
+          Built and maintained CI/CD pipelines using Docker and GitLab
+        }
+      \resumeItemListEnd
+
+  %----------- DClick Soluciones -----------
+    \resumeSubheading
+      {Software Developer}{Aug. 2022 -- Jan. 2023}
+      {DClick Soluciones}{Havana, Cuba}
+      \resumeItemListStart
+        \resumeItem{
+          Maintained DClick's website back-end, built in Django
+        }
+        \resumeItem{
+          Development of infrastructure control software for client companies such as Cuba Hidráulica and DIVEP using Odoo.
+        }
+        \resumeItem{
+          Managed Proxmox's virtual machines and Postgres for client companies
+        }
+        \resumeItem{
+          Increased deployment frequency with CI/CD pipelines using Gitlab and Docker
+        }
+      \resumeItemListEnd
+
+  %----------- Competitive Programming -----------
     \resumeSubheading
       {Competitive Programmer}{2018 -- Present}
       {Achievements:}{}
@@ -138,61 +187,37 @@
           \href{https://stats.ioinformatics.org/delegations/CUB/2022}{\underline{2022}}
         }
       \resumeItemListEnd
-
-  \resumeSubheading
-    {Data Scientist Junior}{Feb. 2023 -- Present}
-    {XETID}{Santa Clara, Cuba}
-    \resumeItemListStart
-      \resumeItem{
-        Member of the Advertisement Recommendation System Team for \href{https://ticket.xutil.net}{\underline{Ticket}}.
-      }
-    \resumeItemListEnd
-
-  \resumeSubheading
-    {Competitive Programmer Teacher}{Jan. 2023 -- Present}
-    {IPVCE Ernesto Guevara}{Santa Clara, Cuba}
-    \resumeItemListStart
-      \resumeItem{
-        Teaching a competitive programming lesson every week.
-      }
-    \resumeItemListEnd
-  
-  \resumeSubheading
-    {Odoo Developer}{Sep. 2022 -- Jan. 2023}
-    {DClick Soluciones}{Havana, Cuba}
-    \resumeItemListStart
-      \resumeItem{
-        Development of infrastructure control software for companies such as Cuba Hidráulica and DIVEP.
-      }
-    \resumeItemListEnd
+      
 \resumeSubHeadingListEnd
       
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {IPVCE Ernesto Guevara}{Santa Clara, Cuba}
       {High School Degree}{Sep. 2019 - Jun. 2022}
+      {IPVCE Ernesto Guevara}{Santa Clara, Cuba}
   \resumeSubHeadingListEnd
       
       
-%-----------PROJECTS-----------
-\section{Projects}
-  \resumeItemListStart
-    \resumeItem{\textbf{Recommendation System:} \emph{Advertisement recommender system using collaborative filtering on \href{https://ticket.xutil.net}{Ticket's} database.}}
-    \resumeItem{\textbf{Room Automation:} \emph{Software to make intelligent my own room using Arduino.}}
-    \resumeItem{\textbf{Never Stop Proxy:} \emph{Proxy Server using Squid to improve speed and cost of internet connection in Cuba.}}
-  \resumeSubHeadingListEnd
-
-
 %-----------PROGRAMMING SKILLS-----------
 \section{Technical Skills}
   \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-      \textbf{Languages}{: C++, Python, SQL, HTML, CSS, JavaScript} \\
+      \textbf{Languages}{: C++, Rust, Go, Python, SQL, C\#, Java} \\
       \textbf{Libraries}{: Numpy, Pandas, Matplotlib, Scikit-Learn} \\
-      \textbf{Frameworks}{: Odoo} \\
-      \textbf{Developer Tools}{: Git, Docker, Gitlab} \\
+      \textbf{Frameworks}{: Django, Fiber, Falcon, Odoo, Unity} \\
+      \textbf{Technologies}{: Git, Docker, Gitlab, GNU/Linux, Proxmox, NGINX, Grafana, Postgres, Redis} \\
+      %\textbf{ORMs}{: Eloquent, TypeORM}
+    }}
+ \end{itemize}
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Languages}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+      \textbf{Spanish}{(Native)} \\
+      \textbf{English}{(Proficient)} \\
       %\textbf{ORMs}{: Eloquent, TypeORM}
     }}
  \end{itemize}
@@ -201,7 +226,7 @@
 %-----------FOOTER-----------
 \vspace*{\fill}
 \begin{center}
-  Updated on Feb 26, 2023
+  Updated on Mar, 2024
 \end{center}
 
 \end{document}
